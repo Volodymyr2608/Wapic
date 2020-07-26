@@ -1,0 +1,142 @@
+/* Header
+=============================*/
+
+
+.header__content-inner{
+  border-bottom: 1px solid #6c8585;
+}
+
+/* Slider
+============================*/
+
+.slider{
+  background: #296365 url(../img/AboutUs/aboutUs__fon.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.slider__inner{
+  width: 100%; 
+  margin-top: 160px;
+  text-align: center;
+}
+
+.slider__title{
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+
+.slider__btn{
+  margin-top: 33px;
+}
+
+/* Features
+===========================*/
+
+.features{
+  min-height: 623px;
+}
+
+.features__inner{
+  text-align: center;
+  padding-top: 78px;
+  padding-bottom: 92px;
+}
+
+.features__items-top{
+  	padding-bottom: 0px;
+}
+
+.features__items-top:after{
+	content: "";
+	width: 0px;
+	height: 0px;
+}
+
+
+.features__content,
+.meet__content{
+  margin: 40px auto 0px;
+  font-size: 15px;
+  line-height: 20px;
+  max-width: 710px;
+}
+
+.services__item-title{
+ 	font-size: 16px;
+	color: #0f5f5c;
+	line-height: 20px;
+}
+
+/* Meet
+===========================*/
+
+.meet{
+  padding: 0 30px;
+  min-height: 665px;
+  background-color: #eef1ec;
+}
+
+.meet__inner{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 77px;
+}
+
+.meet__title{
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 20px;
+	color: #0f5f5c;
+	padding-bottom: 21px;
+	position: relative;
+}
+
+.meet__title:after{
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 1px;
+  background-color: #6fb048;
+  bottom: 0;
+  right: calc(100% / 2 - 33px);
+}
+
+
+.meet__content-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.meet__name-person{
+	margin-top: 18px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #0f5f5c;
+	line-height: 22px;
+}
+
+.meet__profession-person{
+	margin-top: 4px;
+}
+
+/* Download
+===============================*/
+
+.download{
+  min-height: 200px;
+  background: url('../img/AboutUs/about__download.png') center center no-repeat;
+  color: #fff;
+}
+
+.download__title{
+	color: #fff;
+	font-weight: 300;
+}
+
+.download__btn-free{
+  background-color: #49732f;
+}
+

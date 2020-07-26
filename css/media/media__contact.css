@@ -1,0 +1,45 @@
+@media (min-width: 768px) and (max-width : 992px){
+	
+	/* Contact
+	=========================*/
+
+	.form {
+    	width: 340px;
+    }
+}
+
+@media (max-width: 767px){
+	
+	/* Contact
+	=========================*/
+
+	.contact__form {
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    .form{
+    	padding-bottom: 30px;
+    }
+
+    .contact__list{
+    	margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 400px){
+	
+	/* Contact
+	=========================*/
+
+	.contact .features__title{
+		line-height: 30px
+	}
+
+    .contact__list{
+    	border: none;
+    	text-align: center;
+    	padding: 0;
+    	margin-bottom: 0;
+    }
+}

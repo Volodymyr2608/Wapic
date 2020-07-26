@@ -1,0 +1,19 @@
+@media (max-width: 845px){
+	
+	/* Pricing
+	=========================*/
+
+	.pricing__inner {
+    	padding-top: 120px;
+    }
+}
+
+@media (max-width: 620px){
+	
+	/* Pricing
+	=========================*/
+
+	.pricing__title{
+		font-size: 29px;
+	}
+}

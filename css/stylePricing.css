@@ -1,0 +1,77 @@
+/* Header
+===========================*/
+
+.header__content-inner{
+  border-bottom: 1px solid #b8ccc8;
+}
+
+.header__content-inner a{
+	color: #83a7a5;
+}
+
+.menu a:hover{
+  background-color: #6fb048;
+}
+
+.header__btn-menu{
+	color: #0f5f5c;
+}
+
+
+
+/* Pricing
+========================*/
+
+
+.pricing{
+	min-height: 780px;
+	background-color: #eef1ec;
+}
+
+.pricing__inner{
+  margin: 0px auto 40px;
+  padding-top: 144px; 
+}
+
+.pricing__title{
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 38px;
+	padding-bottom: 0px;
+}
+
+.pricing__title:after{
+	content: '';
+	width: 0;
+	height: 0;
+}
+
+.pricing__content{
+  width: 100%;
+  margin: 0px auto;
+  line-height: 30px;
+}
+
+.pricing__table{
+	background-color: #fff;
+}
+
+.pricing__text-limitted{
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+/* Pricing all plan
+===============*/
+
+.pricing__plan{
+	padding: 0 30px;
+}
+
+.pricing__all-plan {
+    margin-top: 78px;
+}
+
+.pricing__email{
+	padding-bottom: 95px;
+}
